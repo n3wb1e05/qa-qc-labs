@@ -173,45 +173,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E7joxLQLJX-L2FkS-B1a-56" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;" vertex="1" parent="T00dslBi2b2i00kKxEPh-14">
-          <mxGeometry x="488" y="185" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="T00dslBi2b2i00kKxEPh-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="T00dslBi2b2i00kKxEPh-14" source="T00dslBi2b2i00kKxEPh-17" target="E7joxLQLJX-L2FkS-B1a-56" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="180" as="sourcePoint" />
-            <mxPoint x="490" y="205" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="380" y="150" />
-              <mxPoint x="380" y="210" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="490" y="125" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="E7joxLQLJX-L2FkS-B1a-63" value="Ввести свій email" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="T00dslBi2b2i00kKxEPh-14">
-          <mxGeometry x="690" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="690" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PT8-PfyMUVxv6Ptsw5Qg-6" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" parent="T00dslBi2b2i00kKxEPh-14" vertex="1">
-          <mxGeometry x="1320" y="210" width="50" height="50" as="geometry" />
+        <mxCell id="E7joxLQLJX-L2FkS-B1a-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="T00dslBi2b2i00kKxEPh-14" source="E7joxLQLJX-L2FkS-B1a-111" target="PT8-PfyMUVxv6Ptsw5Qg-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PT8-PfyMUVxv6Ptsw5Qg-9" value="Підтвердження отримання&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;квитку&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T00dslBi2b2i00kKxEPh-14" vertex="1">
-          <mxGeometry x="1240" y="255" width="210" height="30" as="geometry" />
+        <mxCell id="E7joxLQLJX-L2FkS-B1a-111" value="Підтвердти отримання квитка" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="T00dslBi2b2i00kKxEPh-14">
+          <mxGeometry x="1325" y="125" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PT8-PfyMUVxv6Ptsw5Qg-7" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="T00dslBi2b2i00kKxEPh-14" vertex="1">
-          <mxGeometry x="1155" y="205" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PT8-PfyMUVxv6Ptsw5Qg-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="T00dslBi2b2i00kKxEPh-14" source="PT8-PfyMUVxv6Ptsw5Qg-7" target="PT8-PfyMUVxv6Ptsw5Qg-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1190" y="260" as="sourcePoint" />
-            <mxPoint x="1185" y="50" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1185" y="60" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PT8-PfyMUVxv6Ptsw5Qg-11" value="Так" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PT8-PfyMUVxv6Ptsw5Qg-10" vertex="1" connectable="0">
-          <mxGeometry x="-0.8531" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PT8-PfyMUVxv6Ptsw5Qg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="T00dslBi2b2i00kKxEPh-14" source="PT8-PfyMUVxv6Ptsw5Qg-6" target="PT8-PfyMUVxv6Ptsw5Qg-7" edge="1">
+        <mxCell id="E7joxLQLJX-L2FkS-B1a-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="T00dslBi2b2i00kKxEPh-14" source="T00dslBi2b2i00kKxEPh-17" target="E7joxLQLJX-L2FkS-B1a-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T00dslBi2b2i00kKxEPh-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="T00dslBi2b2i00kKxEPh-1" edge="1">
@@ -227,6 +200,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="533" y="400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="E7joxLQLJX-L2FkS-B1a-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.835;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="T00dslBi2b2i00kKxEPh-1" source="E7joxLQLJX-L2FkS-B1a-17" target="E7joxLQLJX-L2FkS-B1a-111">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E7joxLQLJX-L2FkS-B1a-55" value="Дані про банк. рахунок клієнта" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;" vertex="1" parent="1">
           <mxGeometry x="290" y="570" width="60" height="100" as="geometry" />
